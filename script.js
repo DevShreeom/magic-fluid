@@ -268,7 +268,7 @@ function startGUI () {
 
     let app = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'app');
-        window.open('https://instagram.com/its_me_shree_om');
+        window.open('https://instagram.com/dev.shreeom');
     } }, 'fun').name('INSTAGRAM');
     app.__li.className = 'cr function appBigFont';
     app.__li.style.borderLeft = '3px solid #00FF7F';
